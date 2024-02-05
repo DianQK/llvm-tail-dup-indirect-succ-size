@@ -1,0 +1,68 @@
+==================
+Iterations: 1
+dup: instructions: 424, branches: 33, branch-misses: 43
+nodup: instructions: 282, branches: 53, branch-misses: 14
+==================
+Iterations: 2
+dup: instructions: 840, branches: 63, branch-misses: 53
+nodup: instructions: 570, branches: 106, branch-misses: 53
+==================
+Iterations: 3
+dup: instructions: 1261, branches: 93, branch-misses: 62
+nodup: instructions: 850, branches: 159, branch-misses: 74
+==================
+Iterations: 4
+dup: instructions: 1686, branches: 122, branch-misses: 55
+nodup: instructions: 1152, branches: 212, branch-misses: 50
+==================
+Iterations: 5
+dup: instructions: 2107, branches: 153, branch-misses: 39
+nodup: instructions: 1420, branches: 265, branch-misses: 12
+==================
+Iterations: 6
+dup: instructions: 2525, branches: 183, branch-misses: 73
+nodup: instructions: 1713, branches: 319, branch-misses: 52
+==================
+Iterations: 7
+dup: instructions: 2946, branches: 212, branch-misses: 47
+nodup: instructions: 1995, branches: 372, branch-misses: 50
+==================
+Iterations: 8
+dup: instructions: 3378, branches: 243, branch-misses: 63
+nodup: instructions: 2275, branches: 424, branch-misses: 55
+==================
+Iterations: 9
+dup: instructions: 3791, branches: 273, branch-misses: 69
+nodup: instructions: 2559, branches: 477, branch-misses: 61
+==================
+Iterations: 10
+dup: instructions: 4227, branches: 308, branch-misses: 40
+nodup: instructions: 2878, branches: 536, branch-misses: 65
+==================
+Iterations: 100
+dup: instructions: 42139, branches: 3014, branch-misses: 53
+nodup: instructions: 28540, branches: 5312, branch-misses: 33
+==================
+Iterations: 1000
+dup: instructions: 421058, branches: 30021, branch-misses: 60
+nodup: instructions: 285055, branches: 53018, branch-misses: 51
+==================
+Iterations: 10000
+dup: instructions: 4210086, branches: 300027, branch-misses: 37
+nodup: instructions: 2850075, branches: 530024, branch-misses: 55
+==================
+Iterations: 100000
+dup: instructions: 42100101, branches: 3000036, branch-misses: 54
+nodup: instructions: 28500099, branches: 5300034, branch-misses: 42
+==================
+Iterations: 1000000
+dup: instructions: 421000152, branches: 30000073, branch-misses: 128
+nodup: instructions: 285000148, branches: 53000065, branch-misses: 135
+==================
+Iterations: 10000000
+dup: instructions: 4210000451, branches: 300000358, branch-misses: 740
+nodup: instructions: 2850000399, branches: 530000306, branch-misses: 657
+==================
+Iterations: 100000000
+dup: instructions: 42100003287, branches: 3000003160, branch-misses: 6716
+nodup: instructions: 28500002815, branches: 5300002706, branch-misses: 5738

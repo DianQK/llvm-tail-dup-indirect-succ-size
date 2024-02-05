@@ -1,0 +1,3 @@
+206315,,instructions:u,0.00%,368633,100.00,,
+51943,,branches:u,0.00%,368633,100.00,,
+2756,,branch-misses:u,0.20%,368633,100.00,5.31,of all branches
