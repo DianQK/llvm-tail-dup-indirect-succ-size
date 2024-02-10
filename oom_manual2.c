@@ -158,6 +158,8 @@ int f1(unsigned int *b) {
   SWITCH(r >> 30 | (r << 2 & 0x7cu), v22);
   SWITCH(r >> 7 & 0x7fu, v23);
   SWITCH(r >> 12 & 0x7fu, v24);
-  return (v1 + v2 + v3 + v4 + v5 + v6 + v7 + v8 + v9 + v10 + v11 + v12 + v13 +
-          v14 + v15 + v16 + v17 + v18 + v19 + v20 + v21 + v22 + v23 + v24);
+  SWITCH(r >> 14 & 0x7fu, v25);
+  SWITCH(r >> 15 & 0x7fu, v26);
+  return (v1 | v2 | v3 | v4 | v5 | v6 | v7 | v8 | v9 | v10 | v11 | v12 | v13 |
+          v14 | v15 | v16 | v17 | v18 | v19 | v20 | v21 | v22 | v23 | v24 | v25 | v26);
 }
