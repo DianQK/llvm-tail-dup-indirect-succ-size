@@ -1,0 +1,208 @@
+-------------
+1547
+===-------------------------------------------------------------------------===
+                          Pass execution timing report
+===-------------------------------------------------------------------------===
+  Total Execution Time: 23.9270 seconds (23.9281 wall clock)
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   7.4577 ( 31.5%)   0.0000 (  0.0%)   7.4577 ( 31.2%)   7.4587 ( 31.2%)  Control Flow Optimizer
+   6.0207 ( 25.4%)   0.0000 (  0.0%)   6.0207 ( 25.2%)   6.0207 ( 25.2%)  Eliminate PHI nodes for register allocation
+   5.1544 ( 21.7%)   0.0050 (  2.2%)   5.1594 ( 21.6%)   5.1594 ( 21.6%)  Machine Cycle Info Analysis
+   1.1156 (  4.7%)   0.0899 ( 39.7%)   1.2055 (  5.0%)   1.2055 (  5.0%)  Early Tail Duplication
+466285244797,,instructions:u,24076247578,100.00,,
+-------------
+1500
+===-------------------------------------------------------------------------===
+                          Pass execution timing report
+===-------------------------------------------------------------------------===
+  Total Execution Time: 28.5366 seconds (28.5367 wall clock)
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   7.9489 ( 28.1%)   0.0000 (  0.0%)   7.9489 ( 27.9%)   7.9489 ( 27.9%)  Branch Probability Basic Block Placement
+   6.6347 ( 23.4%)   0.0000 (  0.0%)   6.6347 ( 23.2%)   6.6347 ( 23.2%)  Control Flow Optimizer
+   5.2920 ( 18.7%)   0.0000 (  0.0%)   5.2920 ( 18.5%)   5.2920 ( 18.5%)  Eliminate PHI nodes for register allocation
+   4.6968 ( 16.6%)   0.0050 (  2.2%)   4.7018 ( 16.5%)   4.7018 ( 16.5%)  Machine Cycle Info Analysis
+607635891640,,instructions:u,28617716778,100.00,,
+-------------
+1400
+===-------------------------------------------------------------------------===
+                          Pass execution timing report
+===-------------------------------------------------------------------------===
+  Total Execution Time: 23.5489 seconds (23.5490 wall clock)
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   6.5941 ( 28.2%)   0.0000 (  0.0%)   6.5941 ( 28.0%)   6.5941 ( 28.0%)  Branch Probability Basic Block Placement
+   5.3850 ( 23.1%)   0.0000 (  0.0%)   5.3850 ( 22.9%)   5.3850 ( 22.9%)  Control Flow Optimizer
+   4.3256 ( 18.5%)   0.0000 (  0.0%)   4.3256 ( 18.4%)   4.3256 ( 18.4%)  Eliminate PHI nodes for register allocation
+   3.8518 ( 16.5%)   0.0069 (  3.4%)   3.8587 ( 16.4%)   3.8587 ( 16.4%)  Machine Cycle Info Analysis
+506221001288,,instructions:u,23796879052,100.00,,
+-------------
+1300
+===-------------------------------------------------------------------------===
+                          Pass execution timing report
+===-------------------------------------------------------------------------===
+  Total Execution Time: 18.9531 seconds (18.9530 wall clock)
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   5.1867 ( 27.6%)   0.0000 (  0.0%)   5.1867 ( 27.4%)   5.1867 ( 27.4%)  Branch Probability Basic Block Placement
+   4.3975 ( 23.4%)   0.0000 (  0.0%)   4.3975 ( 23.2%)   4.3975 ( 23.2%)  Control Flow Optimizer
+   3.5236 ( 18.8%)   0.0000 (  0.0%)   3.5236 ( 18.6%)   3.5236 ( 18.6%)  Eliminate PHI nodes for register allocation
+   2.9719 ( 15.8%)   0.0050 (  3.0%)   2.9769 ( 15.7%)   2.9769 ( 15.7%)  Machine Cycle Info Analysis
+397876721715,,instructions:u,19020321666,100.00,,
+-------------
+1200
+===-------------------------------------------------------------------------===
+                          Pass execution timing report
+===-------------------------------------------------------------------------===
+  Total Execution Time: 14.9512 seconds (14.9513 wall clock)
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   3.9289 ( 26.5%)   0.0000 (  0.0%)   3.9289 ( 26.3%)   3.9289 ( 26.3%)  Branch Probability Basic Block Placement
+   3.4147 ( 23.1%)   0.0000 (  0.0%)   3.4147 ( 22.8%)   3.4147 ( 22.8%)  Control Flow Optimizer
+   2.7428 ( 18.5%)   0.0000 (  0.0%)   2.7428 ( 18.3%)   2.7429 ( 18.3%)  Eliminate PHI nodes for register allocation
+   2.4221 ( 16.4%)   0.0040 (  2.8%)   2.4261 ( 16.2%)   2.4261 ( 16.2%)  Machine Cycle Info Analysis
+313184469140,,instructions:u,14765860635,100.00,,
+-------------
+1100
+===-------------------------------------------------------------------------===
+                          Pass execution timing report
+===-------------------------------------------------------------------------===
+  Total Execution Time: 11.7165 seconds (11.7165 wall clock)
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   2.9802 ( 25.7%)   0.0000 (  0.0%)   2.9802 ( 25.4%)   2.9802 ( 25.4%)  Branch Probability Basic Block Placement
+   2.6892 ( 23.2%)   0.0000 (  0.0%)   2.6892 ( 23.0%)   2.6892 ( 23.0%)  Control Flow Optimizer
+   2.1737 ( 18.8%)   0.0000 (  0.0%)   2.1737 ( 18.6%)   2.1737 ( 18.6%)  Eliminate PHI nodes for register allocation
+   1.8163 ( 15.7%)   0.0039 (  3.0%)   1.8202 ( 15.5%)   1.8202 ( 15.5%)  Machine Cycle Info Analysis
+242238896172,,instructions:u,11839569413,100.00,,
+-------------
+1000
+===-------------------------------------------------------------------------===
+                          Pass execution timing report
+===-------------------------------------------------------------------------===
+  Total Execution Time: 8.6995 seconds (8.6995 wall clock)
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   2.1837 ( 25.5%)   0.0000 (  0.0%)   2.1837 ( 25.1%)   2.1837 ( 25.1%)  Branch Probability Basic Block Placement
+   1.9956 ( 23.3%)   0.0000 (  0.0%)   1.9956 ( 22.9%)   1.9956 ( 22.9%)  Control Flow Optimizer
+   1.6153 ( 18.8%)   0.0000 (  0.0%)   1.6153 ( 18.6%)   1.6153 ( 18.6%)  Eliminate PHI nodes for register allocation
+   1.2875 ( 15.0%)   0.0019 (  1.6%)   1.2894 ( 14.8%)   1.2894 ( 14.8%)  Machine Cycle Info Analysis
+185039464508,,instructions:u,8825137515,100.00,,
+-------------
+900
+===-------------------------------------------------------------------------===
+                          Pass execution timing report
+===-------------------------------------------------------------------------===
+  Total Execution Time: 6.7335 seconds (6.7335 wall clock)
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   1.6189 ( 24.4%)   0.0000 (  0.0%)   1.6189 ( 24.0%)   1.6190 ( 24.0%)  Branch Probability Basic Block Placement
+   1.5101 ( 22.8%)   0.0000 (  0.0%)   1.5101 ( 22.4%)   1.5101 ( 22.4%)  Control Flow Optimizer
+   1.2289 ( 18.5%)   0.0000 (  0.0%)   1.2289 ( 18.3%)   1.2289 ( 18.3%)  Eliminate PHI nodes for register allocation
+   1.0122 ( 15.3%)   0.0029 (  2.9%)   1.0151 ( 15.1%)   1.0151 ( 15.1%)  Machine Cycle Info Analysis
+137669121804,,instructions:u,6779634787,100.00,,
+-------------
+800
+===-------------------------------------------------------------------------===
+                          Pass execution timing report
+===-------------------------------------------------------------------------===
+  Total Execution Time: 4.7965 seconds (4.7965 wall clock)
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   1.1489 ( 24.4%)   0.0000 (  0.0%)   1.1489 ( 24.0%)   1.1489 ( 24.0%)  Branch Probability Basic Block Placement
+   1.0444 ( 22.2%)   0.0000 (  0.0%)   1.0444 ( 21.8%)   1.0444 ( 21.8%)  Control Flow Optimizer
+   0.8538 ( 18.1%)   0.0000 (  0.0%)   0.8538 ( 17.8%)   0.8538 ( 17.8%)  Eliminate PHI nodes for register allocation
+   0.7041 ( 14.9%)   0.0009 (  1.1%)   0.7051 ( 14.7%)   0.7051 ( 14.7%)  Machine Cycle Info Analysis
+98818321269,,instructions:u,4763518373,100.00,,
+-------------
+700
+===-------------------------------------------------------------------------===
+                          Pass execution timing report
+===-------------------------------------------------------------------------===
+  Total Execution Time: 3.4965 seconds (3.4965 wall clock)
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.8634 ( 25.2%)   0.0000 (  0.0%)   0.8634 ( 24.7%)   0.8633 ( 24.7%)  Branch Probability Basic Block Placement
+   0.7112 ( 20.7%)   0.0000 (  0.0%)   0.7112 ( 20.3%)   0.7112 ( 20.3%)  Control Flow Optimizer
+   0.5932 ( 17.3%)   0.0000 (  0.0%)   0.5932 ( 17.0%)   0.5932 ( 17.0%)  Eliminate PHI nodes for register allocation
+   0.4995 ( 14.6%)   0.0000 (  0.0%)   0.4995 ( 14.3%)   0.4995 ( 14.3%)  Machine Cycle Info Analysis
+70542257837,,instructions:u,3485161184,100.00,,
+-------------
+600
+===-------------------------------------------------------------------------===
+                          Pass execution timing report
+===-------------------------------------------------------------------------===
+  Total Execution Time: 2.1719 seconds (2.1719 wall clock)
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.4822 ( 22.8%)   0.0000 (  0.0%)   0.4822 ( 22.2%)   0.4822 ( 22.2%)  Branch Probability Basic Block Placement
+   0.4359 ( 20.6%)   0.0000 (  0.0%)   0.4359 ( 20.1%)   0.4359 ( 20.1%)  Control Flow Optimizer
+   0.3753 ( 17.8%)   0.0000 (  0.0%)   0.3753 ( 17.3%)   0.3753 ( 17.3%)  Eliminate PHI nodes for register allocation
+   0.2839 ( 13.4%)   0.0019 (  3.3%)   0.2858 ( 13.2%)   0.2858 ( 13.2%)  Machine Cycle Info Analysis
+46142991771,,instructions:u,2226737811,100.00,,
+-------------
+500
+===-------------------------------------------------------------------------===
+                          Pass execution timing report
+===-------------------------------------------------------------------------===
+  Total Execution Time: 1.3796 seconds (1.3796 wall clock)
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.2966 ( 22.1%)   0.0000 (  0.0%)   0.2966 ( 21.5%)   0.2966 ( 21.5%)  Branch Probability Basic Block Placement
+   0.2579 ( 19.2%)   0.0000 (  0.0%)   0.2579 ( 18.7%)   0.2579 ( 18.7%)  Control Flow Optimizer
+   0.2289 ( 17.0%)   0.0000 (  0.0%)   0.2289 ( 16.6%)   0.2289 ( 16.6%)  Eliminate PHI nodes for register allocation
+   0.1695 ( 12.6%)   0.0000 (  0.1%)   0.1696 ( 12.3%)   0.1696 ( 12.3%)  Machine Cycle Info Analysis
+27634154267,,instructions:u,1377206052,100.00,,
+-------------
+400
+===-------------------------------------------------------------------------===
+                          Pass execution timing report
+===-------------------------------------------------------------------------===
+  Total Execution Time: 0.7649 seconds (0.7649 wall clock)
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.1500 ( 20.5%)   0.0000 (  0.0%)   0.1500 ( 19.6%)   0.1500 ( 19.6%)  Branch Probability Basic Block Placement
+   0.1237 ( 16.9%)   0.0000 (  0.0%)   0.1237 ( 16.2%)   0.1237 ( 16.2%)  Control Flow Optimizer
+   0.1197 ( 16.4%)   0.0000 (  0.0%)   0.1197 ( 15.6%)   0.1197 ( 15.6%)  Eliminate PHI nodes for register allocation
+   0.0868 ( 11.9%)   0.0008 (  2.4%)   0.0876 ( 11.5%)   0.0876 ( 11.5%)  Machine Cycle Info Analysis
+15273164392,,instructions:u,759224468,100.00,,
+-------------
+300
+===-------------------------------------------------------------------------===
+                          Pass execution timing report
+===-------------------------------------------------------------------------===
+  Total Execution Time: 0.3801 seconds (0.3801 wall clock)
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.0688 ( 19.0%)   0.0000 (  0.0%)   0.0688 ( 18.1%)   0.0688 ( 18.1%)  Branch Probability Basic Block Placement
+   0.0531 ( 14.7%)   0.0000 (  0.0%)   0.0531 ( 14.0%)   0.0531 ( 14.0%)  Eliminate PHI nodes for register allocation
+   0.0476 ( 13.2%)   0.0000 (  0.0%)   0.0476 ( 12.5%)   0.0476 ( 12.5%)  Control Flow Optimizer
+   0.0379 ( 10.5%)   0.0000 (  0.0%)   0.0379 ( 10.0%)   0.0379 ( 10.0%)  Machine Cycle Info Analysis
+7542067632,,instructions:u,375492679,100.00,,
+-------------
+200
+===-------------------------------------------------------------------------===
+                          Pass execution timing report
+===-------------------------------------------------------------------------===
+  Total Execution Time: 0.1543 seconds (0.1543 wall clock)
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.0201 ( 14.1%)   0.0000 (  0.0%)   0.0201 ( 13.0%)   0.0201 ( 13.0%)  Branch Probability Basic Block Placement
+   0.0175 ( 12.3%)   0.0000 (  0.0%)   0.0175 ( 11.3%)   0.0175 ( 11.3%)  Eliminate PHI nodes for register allocation
+   0.0115 (  8.1%)   0.0049 ( 40.6%)   0.0164 ( 10.6%)   0.0164 ( 10.6%)  X86 DAG->DAG Instruction Selection
+   0.0158 ( 11.1%)   0.0000 (  0.0%)   0.0158 ( 10.2%)   0.0158 ( 10.2%)  Control Flow Optimizer
+2884081031,,instructions:u,154545814,100.00,,
+-------------
+100
+===-------------------------------------------------------------------------===
+                          Pass execution timing report
+===-------------------------------------------------------------------------===
+  Total Execution Time: 0.0203 seconds (0.0203 wall clock)
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.0070 ( 40.2%)   0.0016 ( 54.4%)   0.0086 ( 42.3%)   0.0086 ( 42.2%)  X86 DAG->DAG Instruction Selection
+   0.0011 (  6.6%)   0.0010 ( 33.4%)   0.0021 ( 10.5%)   0.0021 ( 10.5%)  X86 Assembly Printer
+   0.0008 (  4.6%)   0.0000 (  0.0%)   0.0008 (  4.0%)   0.0008 (  4.0%)  Live Variable Analysis
+   0.0006 (  3.2%)   0.0000 (  0.0%)   0.0006 (  2.7%)   0.0006 (  2.7%)  Live Interval Analysis
+263315652,,instructions:u,25427386,100.00,,

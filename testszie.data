@@ -1,0 +1,17 @@
+
+
+
+    i32 1545, label %bb15415
+===-------------------------------------------------------------------------===
+                          Pass execution timing report
+===-------------------------------------------------------------------------===
+  Total Execution Time: 23.2859 seconds (23.2860 wall clock)
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   7.3068 ( 31.7%)   0.0000 (  0.0%)   7.3068 ( 31.4%)   7.3068 ( 31.4%)  Control Flow Optimizer
+   5.8588 ( 25.4%)   0.0000 (  0.0%)   5.8588 ( 25.2%)   5.8588 ( 25.2%)  Eliminate PHI nodes for register allocation
+   4.9773 ( 21.6%)   0.0090 (  4.1%)   4.9863 ( 21.4%)   4.9864 ( 21.4%)  Machine Cycle Info Analysis
+   1.0740 (  4.7%)   0.0969 ( 44.1%)   1.1709 (  5.0%)   1.1709 (  5.0%)  Early Tail Duplication
+   1.0027 (  4.3%)   0.0000 (  0.0%)   1.0027 (  4.3%)   1.0027 (  4.3%)  Branch Probability Basic Block Placement
+   0.3446 (  1.5%)   0.0000 (  0.0%)   0.3446 (  1.5%)   0.3446 (  1.5%)  ReachingDefAnalysis
+
