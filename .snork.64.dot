@@ -1,0 +1,35 @@
+digraph "CFG for 'snork.64' function" {
+	label="CFG for 'snork.64' function";
+
+	Node0x2469d50 [shape=record,color="#3d50c3ff", style=filled, fillcolor="#e97a5f70",label="{bb:\l  %i15426 = getelementptr inbounds i8, ptr %arg, i64 16\l  br label %bb12\l}"];
+	Node0x2469d50 -> Node0x246bdf0;
+	Node0x246bed0 [shape=record,color="#3d50c3ff", style=filled, fillcolor="#e97a5f70",label="{bb9:                                              \l  %i15447.ph = phi ptr [ %i79, %bb13 ], [ %i22, %bb19 ]\l  %i10 = getelementptr inbounds i8, ptr %arg, i64 8\l  %i11 = tail call noundef zeroext i1 @wibble.1619(ptr noundef nonnull align 8\l... dereferenceable(8) %i10)\l  br i1 %i11, label %bb15449, label %bb15452, !prof !3\l|{<s0>T|<s1>F}}"];
+	Node0x246bed0:s0 -> Node0x246c6b0;
+	Node0x246bed0:s1 -> Node0x246c920;
+	Node0x246bdf0 [shape=record,color="#b70d28ff", style=filled, fillcolor="#b70d2870",label="{bb12:                                             \l  %i79 = phi ptr [ %arg1, %bb ], [ %i15447, %bb15446 ]\l  %i63 = phi i32 [ 1546, %bb ], [ %i15448, %bb15446 ]\l  switch i32 %i63, label %default.unreachable [\l    i32 0, label %bb13\l    i32 1, label %bb23\l    i32 1546, label %bb15425\l  ]\l|{<s0>def|<s1>0|<s2>1|<s3>1546}}"];
+	Node0x246bdf0:s0 -> Node0x246d910;
+	Node0x246bdf0:s1 -> Node0x246bff0;
+	Node0x246bdf0:s2 -> Node0x246e260;
+	Node0x246bdf0:s3 -> Node0x246e330;
+	Node0x246bff0 [shape=record,color="#3d50c3ff", style=filled, fillcolor="#e97a5f70",label="{bb13:                                             \l  %i15 = tail call noundef nonnull align 4 dereferenceable(4) ptr\l... @snork.65(ptr noundef nonnull align 4 dereferenceable(196) %i15426, i32\l... noundef 19)\l  %i16 = load i32, ptr %i15, align 4, !tbaa !4\l  %i17 = and i32 %i16, 2097152\l  %i18 = icmp eq i32 %i17, 0\l  br i1 %i18, label %bb9, label %bb19\l|{<s0>T|<s1>F}}"];
+	Node0x246bff0:s0 -> Node0x246bed0;
+	Node0x246bff0:s1 -> Node0x246c170;
+	Node0x246c170 [shape=record,color="#3d50c3ff", style=filled, fillcolor="#ef886b70",label="{bb19:                                             \l  %i20 = tail call noundef ptr @zot.66(ptr noundef nonnull align 8\l... dereferenceable(60) %arg2, ptr noundef %i79)\l  %i21 = tail call noundef zeroext i1 @widget.68(ptr noundef nonnull align 8\l... dereferenceable(1768) %arg)\l  %i22 = tail call noundef ptr @zot.67(i32 noundef 1, i1 noundef zeroext %i21,\l... ptr noundef %i20)\l  br label %bb9\l}"];
+	Node0x246c170 -> Node0x246bed0;
+	Node0x246e260 [shape=record,color="#3d50c3ff", style=filled, fillcolor="#c32e3170",label="{bb23:                                             \l  %i25 = tail call noundef nonnull align 4 dereferenceable(4) ptr\l... @snork.65(ptr noundef nonnull align 4 dereferenceable(196) %i15426, i32\l... noundef 19)\l  %i26 = load i32, ptr %i25, align 4, !tbaa !4\l  %i27 = and i32 %i26, 64\l  %i28 = icmp eq i32 %i27, 0\l  br i1 %i28, label %bb15446, label %bb29\l|{<s0>T|<s1>F}}"];
+	Node0x246e260:s0 -> Node0x246d640;
+	Node0x246e260:s1 -> Node0x246fae0;
+	Node0x246fae0 [shape=record,color="#3d50c3ff", style=filled, fillcolor="#cc403a70",label="{bb29:                                             \l  %i30 = tail call noundef ptr @zot.66(ptr noundef nonnull align 8\l... dereferenceable(60) %arg2, ptr noundef %i79)\l  %i31 = tail call noundef zeroext i1 @barney.69(ptr noundef nonnull align 8\l... dereferenceable(1768) %arg)\l  %i32 = tail call noundef ptr @zot.67(i32 noundef 2, i1 noundef zeroext %i31,\l... ptr noundef %i30)\l  br label %bb15446\l}"];
+	Node0x246fae0 -> Node0x246d640;
+	Node0x246e330 [shape=record,color="#3d50c3ff", style=filled, fillcolor="#c32e3170",label="{bb15425:                                          \l  %i15427 = tail call noundef nonnull align 4 dereferenceable(4) ptr\l... @snork.65(ptr noundef nonnull align 4 dereferenceable(196) %i15426, i32\l... noundef 39)\l  %i15428 = load i32, ptr %i15427, align 4, !tbaa !4\l  %i15429 = and i32 %i15428, 8\l  %i15430 = icmp eq i32 %i15429, 0\l  br i1 %i15430, label %bb15446, label %bb15431\l|{<s0>T|<s1>F}}"];
+	Node0x246e330:s0 -> Node0x246d640;
+	Node0x246e330:s1 -> Node0x2470290;
+	Node0x2470290 [shape=record,color="#3d50c3ff", style=filled, fillcolor="#cc403a70",label="{bb15431:                                          \l  %i15432 = tail call noundef ptr @zot.66(ptr noundef nonnull align 8\l... dereferenceable(60) %arg2, ptr noundef %i79)\l  %i15433 = tail call noundef zeroext i1 @widget.1611(ptr noundef nonnull\l... align 8 dereferenceable(1768) %arg)\l  %i15434 = tail call noundef ptr @zot.67(i32 noundef 1818, i1 noundef zeroext\l... %i15433, ptr noundef %i15432)\l  br label %bb15446\l}"];
+	Node0x2470290 -> Node0x246d640;
+	Node0x246d910 [shape=record,color="#3d50c3ff", style=filled, fillcolor="#5977e370",label="{default.unreachable:                              \l  unreachable\l}"];
+	Node0x246d640 [shape=record,color="#b70d28ff", style=filled, fillcolor="#b70d2870",label="{bb15446:                                          \l  %i15447 = phi ptr [ %i15434, %bb15431 ], [ %i79, %bb15425 ], [ %i32, %bb29\l... ], [ %i79, %bb23 ]\l  %i15448 = add nsw i32 %i63, -1\l  br label %bb12, !llvm.loop !8\l}"];
+	Node0x246d640 -> Node0x246bdf0;
+	Node0x246c6b0 [shape=record,color="#3d50c3ff", style=filled, fillcolor="#dedcdb70",label="{bb15449:                                          \l  %i15450 = tail call noundef nonnull align 8 dereferenceable(24) ptr\l... @barney.1621(ptr noundef nonnull align 8 dereferenceable(8) %i10, ptr noundef\l... nonnull @widget.1622)\l  %i15451 = tail call noundef ptr @wobble.1620(ptr noundef nonnull align 8\l... dereferenceable(24) %i15450, ptr noundef %i15447.ph, ptr noundef %arg2)\l  br label %bb15452\l}"];
+	Node0x246c6b0 -> Node0x246c920;
+	Node0x246c920 [shape=record,color="#3d50c3ff", style=filled, fillcolor="#e97a5f70",label="{bb15452:                                          \l  %i15453 = phi ptr [ %i15451, %bb15449 ], [ %i15447.ph, %bb9 ]\l  ret ptr %i15453\l}"];
+}
